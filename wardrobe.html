@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="static/wardrobe.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css"
+    />
+
+    <title>Wardrobe</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Wardrobe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Sign Up <i class="fas fa-user-plus"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login <i class="fas fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
+          <h3>Load Image</h3>
+          <div class="input-group mb-4">
+            <input
+              type="text"
+              class="form-control"
+              id="imgURL"
+              placeholder="Image URL"
+              aria-label="Recipient's username with two button addons"
+              aria-describedby="button-addon4"
+            />
+            <div class="input-group-append" id="button-addon4">
+              <button class="btn btn-outline-secondary" type="button">
+                Import
+              </button>
+              <button
+                class="btn btn-outline-secondary form-clear"
+                type="button"
+                id="imgURL"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 mb-4 mt-2 productSection text-center">
+            <img src="img/t-shirt_001.jpg" class="img-fluid" />
+          </div>
+          <div class="col-lg-8 mb-4 mt-2 productText">
+            <div class="productName">
+              <h1>
+                Category:
+                <span class="badge badge-pill badge-primary">T-shirt</span>
+              </h1>
+            </div>
+            <h3>
+              <b>Attribute</b>:
+              <span class="badge badge-pill badge-primary">Casual</span
+              ><span class="badge badge-pill badge-success">Women</span>
+            </h3>
+            <label for="customRange1" class="sliderBarLabel"
+              ><b>General Similarity</b></label
+            >
+            <input type="range" class="custom-range" id="customRange1" />
+
+            <h4>The Same Category</h4>
+            <div class="row mt-1">
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="img/t-shirt_002.jpg"
+                    class="img-fluid recommendedImg"
+                /></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="img/t-shirt_003.jpg"
+                    class="img-fluid recommendedImg"
+                /></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="img/t-shirt_004.jpg"
+                    class="img-fluid recommendedImg"
+                /></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><img
+                    src="img/t-shirt_005.jpg"
+                    class="img-fluid recommendedImg"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <h3 class="productRecommend">Compatible Items</h3>
+          <div class="row productRecommend">
+            <div class="col-3">
+              <a href="#"><img src="img/jeans_001.jpg" class="img-fluid"/></a>
+            </div>
+            <div class="col-3">
+              <a href="#"><img src="img/shoes_001.jpg" class="img-fluid"/></a>
+            </div>
+            <div class="col-3">
+              <a href="#"><img src="img/jeans_002.jpg" class="img-fluid"/></a>
+            </div>
+            <div class="col-3">
+              <a href="#"><img src="img/bag_001.jpg" class="img-fluid"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr width="90%" />
+
+    <section id="finder">
+      <div class="container">
+        <div class="row">
+          <h3 class="productRecommend">Find your own:</h3>
+          <select
+            class="selectpicker productRecommend"
+            multiple
+            data-live-search="true"
+          >
+            <option>Casual</option>
+            <option>Cocktail</option>
+            <option>Gym</option>
+            <option>Men</option>
+            <option>Women</option>
+            <option>Kids</option>
+          </select>
+        </div>
+
+        <div class="row productRecommend">
+          <div class="col-3">
+            <a href="#"><img src="img/dress_001.jpg" class="img-fluid"/></a>
+          </div>
+          <div class="col-3">
+            <a href="#"><img src="img/dress_002.jpg" class="img-fluid"/></a>
+          </div>
+          <div class="col-3">
+            <a href="#"><img src="img/shoes_002.jpg" class="img-fluid"/></a>
+          </div>
+          <div class="col-3">
+            <a href="#"><img src="img/bag_002.jpg" class="img-fluid"/></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="actions.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+  </body>
+</html>

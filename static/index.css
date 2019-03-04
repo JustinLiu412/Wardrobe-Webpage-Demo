@@ -1,0 +1,16 @@
+body {
+  background: url(https://images.unsplash.com/photo-1416339698674-4f118dd3388b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Lato;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.jumbotron {
+  margin-top: 5rem;
+  background: rgba(205, 205, 205, 0.5);
+}

@@ -1,0 +1,50 @@
+body {
+  font-family: Lato;
+}
+
+.productSection {
+  padding: 0rem 2rem 0rem 2rem;
+  max-height: 500px;
+}
+
+.productText {
+  border-left: solid 1px rgba(210, 210, 210, 0.5);
+  padding: 0rem 2rem 0rem 2rem;
+  max-height: 500px;
+}
+
+.productDescription {
+  font-weight: bold;
+}
+
+.productRecommend {
+  margin: 1rem;
+  max-height: auto;
+}
+
+.productRecommend h3 {
+  padding: 0rem 2rem 0rem 2rem;
+  font-weight: bold;
+}
+
+.sliderBarLabel {
+  margin: 0;
+}
+
+.custom-range {
+  margin-bottom: 1rem;
+}
+
+.recommendedImg {
+  height: auto;
+  width: auto;
+}
+
+#gallery {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#finder {
+  margin-bottom: 3rem;
+}
